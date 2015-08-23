@@ -4,7 +4,7 @@
   "description": "QIF Utilities",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/huwnolan/qif-util/issues"
   },
-  "homepage": "https://github.com/huwnolan/qif-util"
+  "homepage": "https://github.com/huwnolan/qif-util",
+  "devDependencies": {
+    "chai": "^3.2.0"
+  }
 }
